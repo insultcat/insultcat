@@ -57,7 +57,7 @@ p{
     background-position: center;
     float: left;
     /* margin: 0 0 4vw 0; */
-    width: 33.33vw;
+    width: 33.33%;
 }
 
 .grid:hover{
@@ -196,10 +196,21 @@ p{
 
 .info p{
     font-size: 15px;
+    /* width: 18vw; */
+    /* float: left; */
+    /* min-height:100%; */
+    /* padding: 10px 50px 10px 10px; */
+}
+
+.info .margin{
     width: 18vw;
     float: left;
     min-height:100%;
     padding: 10px 50px 10px 10px;
+}
+
+.info .caption{
+  width:55%;
 }
 
 
