@@ -412,7 +412,8 @@ p{
     }
 
     .info .margin{
-      width:100vw;
+      width: 90%;
+      margin-left: 5%;
     }
 
     #title{
