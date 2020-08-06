@@ -6,7 +6,7 @@ $('.grid,.about')
         $('.close').fadeIn('slow');
         $('#viewspace').show();
         $('#viewspace .info.viewer').slideDown("slow", function(){
-          $('.info.viewer p').height(function(){
+          $('.info.viewer .margin').height(function(){
             console.log($('.info.viewer').height());
             if($('.info.viewer').height()!=0){
               return $('.info.viewer').height();
