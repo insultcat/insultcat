@@ -235,6 +235,9 @@ p{
 
 
 /*-----------------------Background images----------------------------------------------*/
+.genderScience{
+  background-image: url('images/gendergap6-d.png');
+}
 .nat150{
   background-image: url('images/nat150.png');
 }
