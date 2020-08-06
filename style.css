@@ -411,6 +411,10 @@ p{
       margin: 0 5%;
     }
 
+    .info .margin{
+      width:100vw;
+    }
+
     #title{
     position: relative;
     margin: 0 auto;
