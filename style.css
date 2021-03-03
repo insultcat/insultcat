@@ -235,6 +235,9 @@ p{
 
 
 /*-----------------------Background images----------------------------------------------*/
+.hgp{
+  background-image: url('images/hgp-thumb.png');
+}
 .genderScience{
   background-image: url('images/gendergap6-d.png');
 }
