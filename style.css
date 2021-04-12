@@ -47,12 +47,13 @@ p{
 
 .grid{
     /* width: 32.75vw; */
-    height: 32.9vh;
+    /* height: 32.9vh; */
     background-size: cover;
     background-position: center;
     float: left;
-    /* margin: 0 0 4vw 0; */
-    width: 33.33%;
+    margin: 0.5vw;
+    width: 15.5vw;
+    height: 15.5vw;
 }
 
 .grid:hover{
@@ -170,11 +171,11 @@ p{
     font-weight: 700;
     padding: 7px;
     position: relative;
-    top: 70%;
+    top: 55%;
     color:#fff;
     text-shadow: 1px 1px 5px #717171;
     /* mix-blend-mode: color-dodge; */
-    font-size: 120%;
+    font-size: 110%;
     font-family: 'Verdana';
     font-variant-caps: all-small-caps;
 }
