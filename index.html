@@ -13,6 +13,7 @@
 
     <title>ʕ •ᴥ•ʔ</title>
     <link rel="stylesheet" type="text/css" href="style.css?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <!-- THREE JS VIZ ------------------------------------->
@@ -21,11 +22,9 @@
     <!-- ABOUT SECTION------------------------------------------->
     <div id="topbar">
       <h1>Аliсе Grishсhеnkо</h1><br/>
-        <!--<h2> | <a href="http://www.murmuru.tumblr.com" target="_blank">Sch00lBlog</a> | <a href="http://www.murmurus.tumblr.com" target="_blank">FunBlog  </a><!-- | Reel</h2>-->
-        <h2><a href="https://murmurus.tumblr.com" target="_blank">Blog</a></h2>
-        <!-- <h2><a href="https://vimeo.com/215410066" target="_blank">Reel</a></h2> -->
+        <h1><a href="https://murmurus.tumblr.com" target="_blank" style="text-decoration: none;">Blog</a></h1>
         <div class="about">
-            <h2>About</h2>
+            <h1>About</h1>
             <div class="info">
                     <p style="width:600px; line-height:1.3;">Hey hey, I'm Alice. I make 2D and 3D visuals to look at and play with. I got my MFA in Animation and interactive media from OSU, and now I work as a Data Viz Specialist for CCNR at Northeastern University. I work with D3, Three JS, Unity3D, Maya, Processing & AfterEffects and am interested in many many other art & design tools! If you want to make things or talk about making things, you can reach me here: <a href="mailto:alice@alicenko.com">alice@alicenko.com</a></br></br>
                         <b>Exhibitions, Screenings & Publications</b><br/>
@@ -87,12 +86,8 @@
               <li id="animation">Animation</li>
               <li id="game">Game Design</li>
               <li id="data">Data Visualization</li>
-              <!-- <li id="graphic">Graphic Design</li> -->
               <li id="illustration">Illustration</li>
-              <!-- <li id="kinect">Kinect</li> -->
-              <!-- <li id="mobile">Mobile</li> -->
               <li id="performance">Performance</li>
-              <!-- <li id="processing">Processing</li> -->
               <li id="vr">Virtual Reality</li>
               <li id="web">Web Design</li>
               <li id="grid">Show All</li>
@@ -102,19 +97,23 @@
     <div id="linebreak" style="height:1px; width:100%; clear:both;"></div>
 
     <!--GRID------------------------------------->
+    <div id="grid-container">
     <div class="hgp grid animation data">
       <p id="title">Human Genome Project Visualization</p>
       <div class="info">
         <p class="margin">
-        For the 20th anniversary of the human genome project's big publication, we created a visualization of the human genome that represents the impact of the project as an above and below waterline comparison of the body of knowledge amassed for each gene, before and after the publication. For this project I created a 3d visualization for the cover image, an infographic and an explanatory animation.
+        For the 20th anniversary of the human genome project's 2001 publication, we created a visualization of the human genome that represents the impact of the project as an above and below waterline comparison of the body of knowledge amassed for each gene, before and after the publication. For this project I created a 3d visualization for the cover image, an infographic and an animation.
         <br/><br/><i>Collaborators</i>: <a href="http://alexandergates.net/" target="_blank">Alexander Gates</a>, <a href="https://deisygysi.github.io/" target="_blank">Deisy Morselli Gysi</a>, <a href="https://barabasi.com/" target="_blank">Albert-László Barabási</a>.
         <br/><br/>
         (Feb 2021)</p>
         <img src="images/hgp-cover.png"/>
+        <p class="caption">Front cover, based on the metaphor that the human genome project was just the tip of the genome discovery iceberg.</p>
         <img src="images/hgp-viz-small.png"/>
-        <iframe src="https://www.youtube.com/embed/mlDqludqJUw" style="height:42vh; width:55%; min-width:450px; frameborder="0" allowfullscreen></iframe>
+        <p class="caption">The infographic with legend and detailed information, printed alongside the commentary piece, for people who want to look into things on a chromosome or gene-level.</p>
+        <iframe src="https://www.youtube.com/embed/mlDqludqJUw" style="height:42vh; width:55%; min-width:450px;" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
+
     <div class="genderScience grid graphic data">
       <p id="title">Gender Gap in Science</p>
         <div class="info">
@@ -124,13 +123,20 @@
         <br/><br/>
         (March 2020)</p>
         <img src="images/gendergap7.png"/>
+        <p class="caption">The full infographic, representing data of male and female scientists' careers from the 40's to the present, including how much work they published and how much attention the work recieved.</p>
         <img src="images/gendergap.png"/>
         <img src="images/gendergap2.png"/>
+        <p class="caption">A close up of the illustration, the ribbons are 3d renders of some of the actual career path curves!</p>
         <img src="images/gendergap12.gif"/>
+        <p class="caption">An initial look at the data, with each particle representing a scientist moving through their career. The floating number is the actual year, so this is a replay of hundreds of careers from the 40's onwards. After the 60's It got way too crowded to be visually parsable, and the number of particles took a toll on the frame rate.</p>
         <img src="images/gendergap13.gif"/>
+        <p class="caption">Here we have the average career for male and female scientists, and an animation showing how the average changes over the years. The space between the lines represents the gender gap.</p>
         <img src="images/gendergap9.png"/>
+        <p class="caption">A joy-division like series of offset linegraphs for each career. This is only a small snippet, there were way too many to show this way, but it was interesting to look at and I used these lines for the ribbons in the above illustration.</p>
         <img src="images/gendergap14.png"/>
+        <p class="caption">An early idea we mocked up comparing ratios of male and female scientists by citations, number of publications and overall population in different disciplines.</p>
         <img src="images/gendergap15.png"/>
+        <p class="caption">Once again, all the careers plotted as line graphs. Here you can see the red color fading out towards the end of the timeline, representing a core idea of the research, that one of the main differences between male and female scientists is early dropout from publishing.</p>
       </div>
     </div>
     <div class="nat150 grid web vr data">
@@ -141,8 +147,9 @@
             <br/><br/>
             (November 2019)</p>
             <img src="images/nat150-cover-small.png"/>
-            <p class="caption"> front cover</p>
+            <p class="caption">Front cover, featuring the co-citation network of 280K publications (linked if they cite the same source).</p>
             <img src="images/nat150-cover2-small.png"/>
+            <p class="caption">The inside of the fold-out cover, showing a timeline for five seminal nature papers and a chain of other papers connected by citation.</p>
             <img src="images/natcover-photo3.jpg"/>
             <img src="images/natcover-photo2.jpg"/>
             <img src="images/natcover-photo.jpg"/>
@@ -156,7 +163,9 @@
             <br/><br/><i>Collaborators</i>: <a href="http://www.mamartino.com/" target="_blank">Mauro Martino</a>, <a href="http://nimadehmamy.com/" target="_blank">Nima Dehmamy</a> and <a href="https://barabasi.com/" target="_blank">Albert-László Barabási</a>.
             <br/><br/>(June 2018)</p>
             <img src="images/wondernet-fakenews3.png" alt="fake news network"/>
+            <p class="caption">Onur Varol's beautiful fake news network dramatically peeking from the fog (nodes are twitter users).</p>
             <img src="images/wondernet-fakenews2.png" alt="fake news network"/>
+            <p class="caption">Another shot of the fake news network.</p>
             <img src="images/wondernet-disease.png" alt="fake news network"/>
             <img src="images/wondernet-art3.png" alt="fake news network"/>
         </div>
@@ -169,8 +178,10 @@
             <a href="http://bestsellers.barabasilab.com/">Explore the visualization here.</a>
           </br></br>(Apr 2018)</p>
             <img src="images/bestsellers.png"/>
-            <!-- <img src="images/bestsellers2.png"/>
-            <img src="images/bestsellers3.png"/>
+            <p class="caption">You can follow the trajectories bestsellers on the list by genre, author, title or point and click selection.</p>
+            <img src="images/bestsellersb3.png"/>
+            <p class="caption">You can also color the timeline by different parameters, such as weekly sales or total sales of each book.</p>
+            <!-- <img src="images/bestsellers3.png"/>
             <img src="images/bestsellers4.png"/> -->
         </div>
     </div>
@@ -180,15 +191,21 @@
             <p class="margin">Humane Technologies Discovery Themes</br><br/>
            This is a three part Virtual Reality Experience for the Oculus and Kinect created as part of a collaborative research project made possible by the Discovery Themes Grant
             at OSU. These experiences were designed to encourage users to engage in healthy movements like
-            balancing on one foot, reaching and twisting. Each activity takes place in a different surreal environment that challenges the player's sense of space and self. I developed the Virtual Reality experience in Unity for this project.
+            balancing on one foot, reaching and twisting. Each activity takes place in a different surreal environment that challenges the player's sense of space and self. I developed the Virtual Reality experience for this project using Unity3D.
             <br/><br/><i>Collaborators:</i> Norah Zuniga Shaw, And many more! <a href="http://humanetechosu.org">Read about it here</a><br/>
             </br>(May 2017)</p>
             <img src="images/herontrees.png"/>
+            <p class="caption">The player plays as a disembodied first person character but can see their own motion in the shadow they cast, which is crane shaped.</p>
             <img src="images/pinkheron.png"/>
-            <img class="selectedImage" src="images/dtht2.png"/>
-            <img src="images/random.png"/>
-            <img src="images/lowp.png"/>
+            <p class="caption">By moving as prompted, the player lights up the orbs and the heron rises.</p>
             <img src="images/herongreen.png"/>
+            <p class="caption">A bird's eye view from the flying part of the level.</p>
+            <img src="images/random.png"/>
+            <p class="caption">A level prototype where movement controls a surreal, randomly populated environment.</p>
+            <img src="images/lowp.png"/>
+            <p class="caption">A prototype of a low-poly environment generated by sound.</p>
+            <img class="selectedImage" src="images/dtht2.png"/>
+            <p class="caption">An image i created for the project website, before the work was created, in the ideation phase.</p>
             <iframe src="https://player.vimeo.com/video/239834267" style="height:42vh; width:55%; min-width:450px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
@@ -329,7 +346,7 @@
           </br></br>(April 2015).
             </p>
              <iframe src="https://player.vimeo.com/video/110819191" style="height:42vh; width:55%; min-width:450px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-             <p class="caption">An early iteration, set to Hajnal by the Venetian Snares.</p>
+             <p class="caption">An early iteration, set to Hajnal by Venetian Snares.</p>
              <iframe src="https://player.vimeo.com/video/125750726" style="height:42vh; width:55%; min-width:450px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
              <p class="caption">A recording of the final version as part of the performance at Drums Downtown 2015</p>
         </div>
@@ -389,7 +406,6 @@
             <img src="images/molecular_biology10.jpg" alt="Molecular Biology Nov, 2014"/>
         </div>
     </div>
-    </div>
     <div class="datamaxx grid graphic web">
         <p id="title">Datamaxx Group</p>
         <div class="info">
@@ -418,6 +434,8 @@
             <p class="caption">Illustration in the style of Shaun Tan</p>
         </div>
     </div>
+    </div>
+  </div>
   </body>
   <script src="js/three.min-89.js"></script>
   <script src="js/jquery-2.1.0.min.js"></script>
